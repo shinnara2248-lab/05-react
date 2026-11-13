@@ -1,0 +1,31 @@
+// 변수선언
+$메인컬러: hotpink;
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 30px;
+
+    .card-wrap {
+        width: 400px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 30px;
+
+        h2 {
+            color: $메인컬러;
+        }
+
+        p {
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: $메인컬러;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

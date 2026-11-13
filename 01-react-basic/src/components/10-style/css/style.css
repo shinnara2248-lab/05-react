@@ -1,0 +1,15 @@
+.inner {
+    max-width: 1300px;
+    background: lightcyan;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.text {
+    background-color: #eee;
+    text-decoration: underline ;
+}

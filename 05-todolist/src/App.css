@@ -1,0 +1,48 @@
+.todo-layout {
+  max-width: 600px;
+  background: lightgreen;
+  color: aliceblue;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 30px;
+
+  h2 {
+    font-size: 3em;
+    color: aliceblue;
+  }
+}
+
+.todo-list {
+  li {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    padding: 4px 0;
+
+    span {
+      &.completed {
+        text-decoration: line-through;
+        color: #f60202;
+      }
+    }
+
+    button {
+      background: lightcyan;
+      border: none;
+    }
+  }
+}
+
+.filter-list {
+  button {
+    border: none;
+    background: transparent;
+    color: #fff;
+
+    &.active {
+      background: #fff;
+      color: #111;
+    }
+  }
+}

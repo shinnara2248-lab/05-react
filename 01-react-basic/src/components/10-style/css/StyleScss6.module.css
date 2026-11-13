@@ -1,0 +1,8 @@
+.container {
+  width: 500px;
+  border: 2px solid rgb(2, 78, 103);
+}
+.container .cardWrap {
+  background: lightsalmon;
+  font-size: 50px;
+}

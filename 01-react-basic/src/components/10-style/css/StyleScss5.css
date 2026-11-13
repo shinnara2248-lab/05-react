@@ -1,0 +1,22 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 30px;
+}
+.container .card-wrap {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+}
+.container .card-wrap h2 {
+  color: hotpink;
+}
+.container .card-wrap p a {
+  text-decoration: none;
+}
+.container .card-wrap p a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}

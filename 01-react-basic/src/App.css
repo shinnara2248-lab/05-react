@@ -1,0 +1,94 @@
+.skill-list {
+    display: flex;
+    gap: 30px;
+
+    li {
+        border: 1px solid #ccc;
+    }
+}
+
+.drink-list {
+    display: flex;
+    gap: 30px;
+
+    li {
+        border: 1px solid #ccc;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+
+    .img-box {
+        .badges {
+            span {
+                background: red;
+                color: #fff;
+                font-size: 12px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.offer-list {
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.login-test {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    padding: 30px;
+
+    button {
+        display: block;
+        background: #CCC;
+        padding: 10px;
+    }
+}
+
+.popup {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    top: 100px;
+    right: 100px;
+    border: 1px solid black;
+    background: #eee;
+    z-index: 1000;
+}
+
+.box {
+    border: 1px solid black;
+    background: #eee;
+    font-size: 30px;
+}
+
+.box.active {
+    background: #111;
+    color: #fff;
+}
+
+.light {
+    background: #eee;
+    padding: 20px;
+}
+
+.dark{
+    background: #111;
+    padding: 20px;
+    color: #fff;
+}

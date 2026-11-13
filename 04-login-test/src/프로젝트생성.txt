@@ -1,0 +1,11 @@
+[프로젝트 생성]
+1단계 - npm create vite@latest (프로젝트명 적기)
+2단계 - 생성된 프로젝트명 폴더로 이동 (open folder)
+3단계 - npm install (서버환경 셋팅)
+4단계 - 상태관리, 회원가입, 디비, 서브페이지 개념 npm install zustand firebase react-router-dom
+
+[프로젝트 구성]
+1. 컴포넌트 = Header, Footer
+2. 페이지 = Home, 로그인, 회원가입
+3. 상태관리 = store ->사용자 권환, ott
+4. firebase 데이터 저장기능
