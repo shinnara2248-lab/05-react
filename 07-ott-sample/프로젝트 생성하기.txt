@@ -1,0 +1,10 @@
+1. node. js 설치
+2. 프로젝트 생성 = npm create vite@latest 프로젝트명
+Select a framework - React
+Select a variant - javaScript + React Compiler
+Which linter to use? - ESLink
+Install with npm and start now? - no
+
+3. file - opne folder로 react-add 폴더를 연다.
+4. Terminal에서 npm Install
+5. 실행 - npm run dev
