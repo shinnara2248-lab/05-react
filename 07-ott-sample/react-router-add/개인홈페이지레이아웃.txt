@@ -1,7 +1,14 @@
+components/
+프로젝트카드
+
+pages/
+Home, About, Portfolio, PortfolioDetail, Skills, ContactUs, NotFound,
+
 layout/
-Header, Footer, layout
+Header, Footer, Layout
 
 store/
-zustand
+zustand  usePorfolioStore.js
 
 data/
+portfolio.js
