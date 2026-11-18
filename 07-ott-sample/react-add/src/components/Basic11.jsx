@@ -1,18 +1,16 @@
 import React, { useEffect, useState } from 'react'
 
 export const Basic11 = () => {
-
     // 1. 상태
-    const [msg, setMsg] = useState("로딩중...")
+    const [msg, setMsg] = useState("로딩중....")
     const [count, setCount] = useState(0);
 
     // 2. 
     const handlePlus = () => {
         setCount(count + 1);
     }
-
     useEffect(() => {
-        setMsg(`마운트 되었습니다 ${count}`)
+        setMsg(`마운트되었습니다 ${count}`)
     }, [count])
 
     return (
