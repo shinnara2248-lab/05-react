@@ -1,0 +1,69 @@
+
+@mixin myFlex($jc: space-between, $ai: center, $gap: 12px) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gap;
+}
+
+@mixin myPos($p: absolute, $t: null, $r: null, $b: null, $l: null) {
+    position: $p;
+    top: $t;
+    right: $r;
+    bottom: $b;
+    left: $l;
+}
+
+.inner {
+    max-width: 1600px;
+    margin: 0 auto;
+
+    &.flex {
+        @include myFlex();
+    }
+}
+
+.main-menu {
+    @include myFlex();
+}
+
+header {
+    nav {
+        ul {
+            @include myFlex();
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+footer {
+    background: #111;
+    color: #fff;
+}
+
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 3em 0;
+
+    .hero-text-wrap {
+        text-align: left;
+
+        p {
+            font-size: 0.85em;
+        }
+
+        h2 {}
+
+        .slogan {
+            font-size: 5em;
+            line-height: 1.2;
+
+            strong {
+                display: block;
+            }
+        }
+    }
+}

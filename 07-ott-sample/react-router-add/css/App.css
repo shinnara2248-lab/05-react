@@ -1,0 +1,51 @@
+.inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.inner.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+}
+
+.hero {
+  background: #333;
+  color: #fff;
+  padding: 3em 0;
+}
+.hero .hero-text-wrap {
+  text-align: left;
+}
+.hero .hero-text-wrap p {
+  font-size: 0.85em;
+}
+.hero .hero-text-wrap .slogan {
+  font-size: 5em;
+  line-height: 1.2;
+}
+.hero .hero-text-wrap .slogan strong {
+  display: block;
+}

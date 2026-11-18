@@ -1,0 +1,52 @@
+{
+  "profile": {
+    "name": "홍길동",
+    "role": "프론트엔드 · UI/UX",
+    "email": "",
+    "github": ""
+  },
+  "projects": [
+    {
+      "id": "popup-store",
+      "title": "맞춤 굿즈 팝업 스토어",
+      "category": "프론트엔드",
+      "summary": "상품 이미지 위에서 문구를 미리 보고 주문하는 쇼핑몰 실습",
+      "goal": "구매 전에 각인될 문구가 상품에 어떻게 보이는지 확인할 수 있게 합니다.",
+      "implementation": "상품 목록과 상세를 구분하고, 입력값을 이미지 위에 실시간으로 표시합니다. Zustand로 주문 목록과 재고를 관리합니다.",
+      "stack": [
+        "React",
+        "Zustand",
+        "CSS"
+      ],
+      "art": "goods"
+    },
+    {
+      "id": "ott-explorer",
+      "title": "OTT 콘텐츠 탐색",
+      "category": "프론트엔드",
+      "summary": "영화와 TV 프로그램을 둘러보고 시즌별 정보를 확인하는 실습",
+      "goal": "작품을 발견한 뒤 상세 정보와 시즌을 자연스럽게 탐색할 수 있도록 구성합니다.",
+      "implementation": "목록을 유형별로 구성하고 작품 ID로 상세에 진입합니다. 작품과 시즌별 데이터를 분리해 화면에서 사용합니다.",
+      "stack": [
+        "React",
+        "Vite",
+        "TMDB"
+      ],
+      "art": "ott"
+    },
+    {
+      "id": "ui-system",
+      "title": "UI 디자인 시스템",
+      "category": "UI/UX",
+      "summary": "컬러, 타이포그래피, 컴포넌트를 연결하는 디자인 실습",
+      "goal": "여러 화면에서 버튼과 입력 필드의 표현과 상태를 일관되게 설계합니다.",
+      "implementation": "컬러와 간격을 토큰으로 정리하고 버튼과 입력 필드의 상태를 컴포넌트로 설계합니다.",
+      "stack": [
+        "Figma",
+        "Design Tokens",
+        "Auto Layout"
+      ],
+      "art": "system"
+    }
+  ]
+}

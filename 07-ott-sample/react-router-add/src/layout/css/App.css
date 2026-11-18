@@ -1,0 +1,18 @@
+.hero {
+  background: #333;
+  color: #fff;
+  padding: 3em 0;
+}
+.hero .hero-text-wrap {
+  text-align: left;
+}
+.hero .hero-text-wrap p {
+  font-size: 0.85em;
+}
+.hero .hero-text-wrap .slogan {
+  font-size: 5em;
+  line-height: 1.2;
+}
+.hero .hero-text-wrap .slogan strong {
+  display: block;
+}

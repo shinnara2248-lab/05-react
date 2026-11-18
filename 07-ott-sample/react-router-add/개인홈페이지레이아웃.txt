@@ -2,13 +2,13 @@ components/
 프로젝트카드
 
 pages/
-Home, About, Portfolio, PortfolioDetail, Skills, ContactUs, NotFound,
+Home, About, Portfolio, PortfolioDetail, Skills, ContactUs, NotFound, 
 
 layout/
 Header, Footer, Layout
 
 store/
-zustand  usePorfolioStore.js
+zustand usePortfolioStore.js
 
 data/
 portfolio.js
