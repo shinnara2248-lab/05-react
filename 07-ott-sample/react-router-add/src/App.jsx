@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 // 기존 코드 삭제
 // import "./App.scss"
-import "./App.scss"
+import "./App.scss";
 import { Layout } from './layout/Layout'
 import { Home } from './pages/Home'
 import { About } from './pages/About'

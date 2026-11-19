@@ -15,11 +15,15 @@ export const Header = () => {
   return (
     <header>
       <div className="inner flex">
+
+        {/* 로고 */}
         <h1 className="logo">
           <Link to="/">신나라</Link>
         </h1>
+
+        {/* 메뉴 */}
         <nav>
-          <ul>
+          <ul className="main-menu">
             {menus.map(({ path, title }) => (
               <li key={path}>
                 <Link to={path}>{title}</Link>
@@ -27,7 +31,10 @@ export const Header = () => {
             ))}
           </ul>
         </nav>
-        <button></button>
+
+        {/* 우측 버튼 */}
+        <button type="button"></button>
+
       </div>
     </header>
   )

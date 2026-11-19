@@ -1,4 +1,3 @@
-
 import React from 'react'
 import portfolio from "../data/portfolio.json"
 import { ProjectCard } from '../components/ProjectCard'

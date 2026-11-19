@@ -1,8 +1,10 @@
 .inner {
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0 20px;
 }
-.inner.flex {
+
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,10 +44,20 @@ footer {
 .hero .hero-text-wrap p {
   font-size: 0.85em;
 }
+.hero .hero-text-wrap h2 {
+  font-size: 3em;
+}
 .hero .hero-text-wrap .slogan {
   font-size: 5em;
   line-height: 1.2;
 }
 .hero .hero-text-wrap .slogan strong {
   display: block;
+}
+
+.portfolio-wrap {
+  padding: 5em 0;
+}
+.portfolio-wrap h2 {
+  margin-bottom: 1.5em;
 }
